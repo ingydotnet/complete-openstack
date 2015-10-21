@@ -2,84 +2,84 @@
 
 .cmd nova
 
-.sub absolute-limits
-.sub add-fixed-ip
-.sub add-floating-ip
+# .sub absolute-limits
+# .sub add-fixed-ip
+# .sub add-floating-ip
 .sub add-secgroup
-.sub agent-create
-.sub agent-delete
-.sub agent-list
-.sub agent-modify
-.sub aggregate-add-host
-.sub aggregate-create
-.sub aggregate-delete
-.sub aggregate-details
-.sub aggregate-list
-.sub aggregate-remove-host
-.sub aggregate-set-metadata
-.sub aggregate-update
-.sub availability-zone-list
+# .sub agent-create
+# .sub agent-delete
+# .sub agent-list
+# .sub agent-modify
+# .sub aggregate-add-host
+# .sub aggregate-create
+# .sub aggregate-delete
+# .sub aggregate-details
+# .sub aggregate-list
+# .sub aggregate-remove-host
+# .sub aggregate-set-metadata
+# .sub aggregate-update
+# .sub availability-zone-list
 .sub backup
 .sub boot
-.sub clear-password
-.sub cloudpipe-configure
-.sub cloudpipe-create
-.sub cloudpipe-list
+# .sub clear-password
+# .sub cloudpipe-configure
+# .sub cloudpipe-create
+# .sub cloudpipe-list
 .sub console-log
 .sub credentials
 .sub delete
 .sub diagnostics
-.sub dns-create
-.sub dns-create-private-domain
-.sub dns-create-public-domain
-.sub dns-delete
-.sub dns-delete-domain
-.sub dns-domains
+# .sub dns-create
+# .sub dns-create-private-domain
+# .sub dns-create-public-domain
+# .sub dns-delete
+# .sub dns-delete-domain
+# .sub dns-domains
 .sub dns-list
 .sub endpoints
 .sub evacuate
-.sub fixed-ip-get
-.sub fixed-ip-reserve
-.sub fixed-ip-unreserve
-.sub flavor-access-add
-.sub flavor-access-list
-.sub flavor-access-remove
-.sub flavor-create
-.sub flavor-delete
-.sub flavor-key
+# .sub fixed-ip-get
+# .sub fixed-ip-reserve
+# .sub fixed-ip-unreserve
+# .sub flavor-access-add
+# .sub flavor-access-list
+# .sub flavor-access-remove
+# .sub flavor-create
+# .sub flavor-delete
+# .sub flavor-key
 .sub flavor-list
 .sub flavor-show
-.sub floating-ip-associate
-.sub floating-ip-bulk-create
-.sub floating-ip-bulk-delete
-.sub floating-ip-bulk-list
+# .sub floating-ip-associate
+# .sub floating-ip-bulk-create
+# .sub floating-ip-bulk-delete
+# .sub floating-ip-bulk-list
 .sub floating-ip-create
 .sub floating-ip-delete
 .sub floating-ip-disassociate
 .sub floating-ip-list
-.sub floating-ip-pool-list
-.sub get-password
-.sub get-rdp-console
-.sub get-serial-console
-.sub get-spice-console
-.sub get-vnc-console
-.sub host-action
-.sub host-describe
-.sub host-list
-.sub host-update
-.sub hypervisor-list
-.sub hypervisor-servers
-.sub hypervisor-show
-.sub hypervisor-stats
-.sub hypervisor-uptime
+# .sub floating-ip-pool-list
+# .sub get-password
+# .sub get-rdp-console
+# .sub get-serial-console
+# .sub get-spice-console
+# .sub get-vnc-console
+# .sub host-action
+# .sub host-describe
+# .sub host-list
+# .sub host-update
+# .sub hypervisor-list
+# .sub hypervisor-servers
+# .sub hypervisor-show
+# .sub hypervisor-stats
+# .sub hypervisor-uptime
 .sub image-create
 .sub image-delete
 .sub image-list
-.sub image-meta
+# .sub image-meta
 .sub image-show
-.sub interface-attach
-.sub interface-detach
-.sub interface-list
+# .sub interface-attach
+# .sub interface-detach
+# .sub interface-list
 .sub keypair-add
 .sub keypair-delete
 .sub keypair-list
@@ -87,121 +87,121 @@
 .sub limits
 .sub list
 .sub list-secgroup
-.sub live-migration
+# .sub live-migration
 .sub lock
 .sub meta
 .sub migrate
-.sub network-associate-host
-.sub network-associate-project
-.sub network-create
-.sub network-delete
-.sub network-disassociate
+# .sub network-associate-host
+# .sub network-associate-project
+# .sub network-create
+# .sub network-delete
+# .sub network-disassociate
 .sub network-list
 .sub network-show
 .sub pause
-.sub quota-class-show
-.sub quota-class-update
-.sub quota-defaults
-.sub quota-delete
-.sub quota-show
-.sub quota-update
-.sub rate-limits
+# .sub quota-class-show
+# .sub quota-class-update
+# .sub quota-defaults
+# .sub quota-delete
+# .sub quota-show
+# .sub quota-update
+# .sub rate-limits
 .sub reboot
 .sub rebuild
-.sub refresh-network
-.sub remove-fixed-ip
-.sub remove-floating-ip
-.sub remove-secgroup
+# .sub refresh-network
+# .sub remove-fixed-ip
+# .sub remove-floating-ip
+# .sub remove-secgroup
 .sub rename
 .sub rescue
-.sub reset-network
-.sub reset-state
+# .sub reset-network
+# .sub reset-state
 .sub resize
-.sub resize-confirm
-.sub resize-revert
+# .sub resize-confirm
+# .sub resize-revert
 .sub resume
 .sub root-password
 .sub scrub
-.sub secgroup-add-default-rule
-.sub secgroup-add-group-rule
+# .sub secgroup-add-default-rule
+# .sub secgroup-add-group-rule
 .sub secgroup-add-rule
-.sub secgroup-create
-.sub secgroup-delete
-.sub secgroup-delete-default-rule
-.sub secgroup-delete-group-rule
-.sub secgroup-delete-rule
+# .sub secgroup-create
+# .sub secgroup-delete
+# .sub secgroup-delete-default-rule
+# .sub secgroup-delete-group-rule
+# .sub secgroup-delete-rule
 .sub secgroup-list
-.sub secgroup-list-default-rules
+# .sub secgroup-list-default-rules
 .sub secgroup-list-rules
-.sub secgroup-update
-.sub server-group-create
-.sub server-group-delete
-.sub server-group-get
-.sub server-group-list
-.sub service-delete
-.sub service-disable
-.sub service-enable
-.sub service-force-down
-.sub service-list
+# .sub secgroup-update
+# .sub server-group-create
+# .sub server-group-delete
+# .sub server-group-get
+# .sub server-group-list
+# .sub service-delete
+# .sub service-disable
+# .sub service-enable
+# .sub service-force-down
+# .sub service-list
 .sub set-password
-.sub shelve
-.sub shelve-offload
+# .sub shelve
+# .sub shelve-offload
 .sub show
 .sub ssh
 .sub start
 .sub stop
 .sub suspend
 .sub unlock
-.sub unpause
-.sub unrescue
-.sub unshelve
+# .sub unpause
+# .sub unrescue
+# .sub unshelve
 .sub usage
 .sub usage-list
 .sub version-list
-.sub volume-attach
-.sub volume-create
-.sub volume-delete
-.sub volume-detach
-.sub volume-list
-.sub volume-show
-.sub volume-snapshot-create
-.sub volume-snapshot-delete
-.sub volume-snapshot-list
-.sub volume-snapshot-show
-.sub volume-type-create
-.sub volume-type-delete
-.sub volume-type-list
-.sub volume-update
-.sub x509-create-cert
-.sub x509-get-root-cert
-.sub bash-completion
+# .sub volume-attach
+# .sub volume-create
+# .sub volume-delete
+# .sub volume-detach
+# .sub volume-list
+# .sub volume-show
+# .sub volume-snapshot-create
+# .sub volume-snapshot-delete
+# .sub volume-snapshot-list
+# .sub volume-snapshot-show
+# .sub volume-type-create
+# .sub volume-type-delete
+# .sub volume-type-list
+# .sub volume-update
+# .sub x509-create-cert
+# .sub x509-get-root-cert
+# .sub bash-completion
 .sub help
-.sub baremetal-interface-add
-.sub baremetal-interface-list
-.sub baremetal-interface-remove
-.sub baremetal-node-create
-.sub baremetal-node-delete
-.sub baremetal-node-list
-.sub baremetal-node-show
-.sub cell-capacities
-.sub cell-show
+# .sub baremetal-interface-add
+# .sub baremetal-interface-list
+# .sub baremetal-interface-remove
+# .sub baremetal-node-create
+# .sub baremetal-node-delete
+# .sub baremetal-node-list
+# .sub baremetal-node-show
+# .sub cell-capacities
+# .sub cell-show
 .sub force-delete
 .sub restore
-.sub host-evacuate
-.sub host-evacuate-live
-.sub host-servers-migrate
-.sub instance-action
-.sub instance-action-list
-.sub list-extensions
-.sub host-meta
-.sub migration-list
+# .sub host-evacuate
+# .sub host-evacuate-live
+# .sub host-servers-migrate
+# .sub instance-action
+# .sub instance-action-list
+# .sub list-extensions
+# .sub host-meta
+# .sub migration-list
 .sub net
 .sub net-create
 .sub net-delete
 .sub net-list
-.sub tenant-network-create
-.sub tenant-network-delete
-.sub tenant-network-list
-.sub tenant-network-show
+# .sub tenant-network-create
+# .sub tenant-network-delete
+# .sub tenant-network-list
+# .sub tenant-network-show
 
 .end
